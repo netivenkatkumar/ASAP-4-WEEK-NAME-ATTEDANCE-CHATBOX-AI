@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Attendance Chatbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+    <div class="chat-app">
+
+        <div class="top-bar">
+            <div class="logo">🤖 AI Attend</div>
+            <span class="status">● Online</span>
+        </div>
+
+        <div class="chat-area" id="chatArea">
+            <div class="bot-message">
+                👋 Hi! I’m your <b>AI Attendance Assistant</b>.<br>
+                You can say:
+                <ul>
+                    <li>Mark my attendance</li>
+                    <li>Show my attendance</li>
+                    <li>Generate report</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button onclick="sendMessage()">➤</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
